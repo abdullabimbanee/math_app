@@ -850,7 +850,7 @@ class Footer extends StatelessWidget {
               IconButton(
                 icon: const Icon(Icons.code, color: Colors.black87),
                 onPressed: () => _launchSocial(
-                  'https://github.com/',
+                  'https://github.com/abdullabimbanee',
                 ), // Replace with your GitHub URL
               ),
               // LinkedIn
@@ -860,7 +860,7 @@ class Footer extends StatelessWidget {
                   color: Colors.blue,
                 ), // Mock LinkedIn icon
                 onPressed: () => _launchSocial(
-                  'https://linkedin.com/',
+                  'https://www.linkedin.com/in/shaik-mohammed-abdulla-bimbanee-ab5a48259/',
                 ), // Replace with your LinkedIn URL
               ),
               // Instagram
@@ -870,7 +870,7 @@ class Footer extends StatelessWidget {
                   color: Colors.pink,
                 ), // Mock Instagram icon
                 onPressed: () => _launchSocial(
-                  'https://instagram.com/',
+                  'https://instagram.com/abdull_abimbanee',
                 ), // Replace with your Instagram URL
               ),
               // X (Twitter)
@@ -880,7 +880,7 @@ class Footer extends StatelessWidget {
                   color: Colors.black,
                 ), // Mock X icon
                 onPressed: () =>
-                    _launchSocial('https://x.com/'), // Replace with your X URL
+                    _launchSocial('https://x.com/abdullabimbanee'), // Replace with your X URL
               ),
             ],
           ),
