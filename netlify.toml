@@ -1,0 +1,11 @@
+[build]
+  command = "curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && apt-get install -y nodejs && git clone https://github.com/flutter/flutter.git && export PATH=\"$PATH:`pwd`/flutter/bin\" && flutter precache && flutter doctor && flutter build web --release"
+  publish = "build/web"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  FLUTTER_VERSION = "stable"
